@@ -1,0 +1,246 @@
+header,
+nav,
+main,
+footer {
+       display: block;
+}
+
+body {
+       background-color: #c46812;
+       font-family: Garamond, Tahoma, sans-serif;
+}
+
+#wrapper {
+       width: 630px;
+       margin: auto;
+       float: left;
+       background-color: #a3d494;
+       color: #382c43;
+       box-shadow: 5px 5px 5px #2d1f3a;
+}
+
+h1 {
+      
+       background-color: #8ab37e;
+       height: 140px;
+       font-family: Garamond, Tahoma, sans-serif;
+       font-size: 3.5em;
+       padding-left: 35px;
+       padding-top: 10px;
+       text-shadow: 3px 3px 3px #696969ca;
+       margin-bottom: 0;
+}
+
+h2{
+       text-align: center;
+       font-family: Garamond, Tahoma, sans-serif;
+       font-size: 2.0em;
+       text-shadow: 3px 3px 3px #696969ca;
+}
+
+h3{
+       text-align: left;
+       font-family: Garamond, Tahoma, sans-serif;
+       font-size: 1.2em;
+       text-shadow: 1px 1px 1px #696969ca;
+}
+nav {
+       padding-top: 10px;
+       float: left;
+       width: 100px;
+}
+
+nav ul {
+       list-style-type: none;
+       padding-left: 15px;
+}
+
+nav li {
+       padding-bottom: 12px;
+       font-weight: bold;
+}
+
+nav a {
+       text-decoration: none;
+}
+
+nav a:link {
+       color: #330000;
+}
+
+nav a:visited {
+       color: #90745D;
+}
+
+nav a:hover {
+       color: #3F4632;
+}
+
+
+main {
+       background-color: #dcdc78;
+       margin-left: 140px;
+       padding: 1px 20px 20px 20px;
+       min-height: 300px;
+}
+
+main img {
+       padding: 10px;
+       width: 45%;
+       height: auto;
+
+
+}
+
+footer {
+       background-color: #ffff99;
+       margin-left: 140px;
+       padding: 20px;
+       text-align: center;
+       font-size: small;
+       font-style: italic;
+}
+
+main#img {
+       width: 45%;
+       height: auto;
+       float: right;
+       padding-right: 10px;
+       background-color: #81b0d7;
+       margin: auto;
+       text-align: center;
+       box-shadow: 5px 5px 5px #2d1f3a;
+}
+
+h2#img {
+       text-align: center;
+       font-family: Garamond, Tahoma, sans-serif;
+       font-size: 2.5em;
+       padding-left: 35px;
+       padding-top: 10px;
+       text-shadow: 3px 3px 3px #696969ca;
+}
+
+img#R {
+       align-items: right;
+       box-shadow: 5px 5px 5px #2d1f3a;
+}
+
+img#L {
+       align-items: left;
+       box-shadow: -5px 5px 5px #2d1f3a;
+}
+
+img#Cen {
+       align-items: center;
+       width: 92%;
+       box-shadow: -1px 5px 5px #2d1f3a;
+}
+img#non {
+       align-items: left;
+       width: 30%;
+       height: auto;
+       box-shadow: -1px 5px 5px #2d1f3a;
+}
+
+div#non-img {
+   width: 80%;
+   margin: auto;
+   background-color: #a9dc97;
+   color: #382c43;
+   box-shadow: 5px 5px 5px #2d1f3a;    
+}
+
+h1#non-img {
+       background-color: #77b564;
+       height: 90px;
+       font-family: Garamond, Tahoma, sans-serif;
+       font-size: 3.5em;
+       text-align: center;
+       padding-top: 10px;
+       text-shadow: 3px 3px 3px #696969ca;
+       margin-bottom: 0;
+}
+
+/*
+just to admit it, al of the input related css code is just copyed over from one of the coding challenges
+*/
+article#col {
+       text-align: center;
+}
+
+fieldset {
+   width: 250px;
+   border-radius: 15px;
+   margin-left: 30px;
+   background: ivory;
+}
+
+legend {
+   font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+   font-size: 1.1em;
+}
+
+label {
+   display: block;
+   margin: 8px 0px 5px 10px;
+   font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+select {
+   display: block;
+   width: 200px;
+   margin: 0px 0px 5px 10px;
+   font-size: 1em;
+}
+
+select option {
+   padding: 2px 0px 2px 5px;
+}
+
+input {
+   width: 200px;
+   margin: 0px 0px 5px 5px;
+}
+
+input[type="submit"] {
+   display: block;
+   width: 75px;
+   margin: 10px 0px 0px 130px;
+   font-size: 1em;
+}
+.center {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+}
+
+@media (max-width: 600px) {
+       #wrapper {
+              width: 100%;
+       }
+       div#non-img{
+              width: 100%;
+       }
+       nav {
+              display: flex;
+              flex-flow: row nowrap;
+              justify-content: center;
+       }
+     main#img {
+       width: 100%;
+       height: auto;
+     }  
+     legend {
+       max-width: 200px;
+       width: 50%;
+     }
+     .center {
+       display: flex;
+       padding: 0;
+       margin-left: 0;
+       justify-content: left;
+       align-items: left;
+     }
+}
+

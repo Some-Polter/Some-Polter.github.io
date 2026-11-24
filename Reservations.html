@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Reservations</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Description of page content">
+  <link href="styles/styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <div id="non-img">
+    <header>
+      <h1>Reservations</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home / emporium</a></li>
+        <li><a href="rooms/Silly~room.html">Silly~room</a></li>
+        <li><a href="rooms/Tuff~room.html">Tuff~room</a></li>
+        <li><a href="events/weekend.html">Special Events</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="Reservations.html">Reservations</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h3>Please fill out the below information to set up reservation at the Big E's Emporium</h3>
+        <form class="center">
+          <article class="flex">
+            <legend>
+              <label for="fullname">Full Name</label>
+              <input type="text" id="fullname" name="name" required/>
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" required/>
+              <label for="phone">Phone Number</label>
+              <input type="text" id="phone" name="phone" required/>
+              <label for="people">Number of People</label>
+              <select type="acctype" id="people" name="people" size="3">
+                <option value="type1">1-2</option>
+                <option value="type2">3-4</option>
+                <option value="type3">4+</option>
+              </select>
+              <label for="date">Check in</label>
+              <input type="date" id="date" name="date">
+              <label for="dateout">Check Out</label>
+              <input type="date" id="dateout" name="date">
+              <input type="submit" >
+            </legend>
+          </article>
+        </form>
+    </main>
+    <footer>
+      Copyright &copy; 2024 WebMaster
+    </footer>
+  </div>
+  
+</body>
+
+</html>
